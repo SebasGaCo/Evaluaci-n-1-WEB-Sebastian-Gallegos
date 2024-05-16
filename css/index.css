@@ -99,6 +99,10 @@ body{
     display: flex;
     justify-content: flex-start;
     max-width: 100px;
+    background-color: #0077ff; 
+    color: #ffffff;
+    border-radius: 5px ;
+    cursor: pointer; 
 }
 
 /*--------------------------------*/
@@ -211,6 +215,13 @@ body{
     width: 20px;
 }
 
+h4{
+    display: flex;
+    justify-content: center;
+    background-color: #3b36367e;
+    margin: 0;
+}
+
 /*-----------*/
 
 
@@ -227,6 +238,7 @@ body{
 
     .g1-imagen, .g1-texto, .g2-imagen, .g2-texto{
     width: auto; 
+    align-items: center;
     }
 
     .t1{
@@ -237,6 +249,16 @@ body{
     .favoritos{
         margin: 10px;
     }
+
+    .piedepagina{
+        flex-direction: column;
+        align-items: center;
+    }
+    h4{
+        padding: 25px;
+    }
+    
+
 
     
 
