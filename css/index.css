@@ -1,14 +1,15 @@
 body{
     margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 .barra{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #77b7ff;
+    background-color: #90afc5;
 
-    height: 50px;
+    height: 100px;
     width: 100%;
 }
 
@@ -57,13 +58,14 @@ body{
 .g1{
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.56); 
 
 }
 
 .g1-imagen,
 .g1-texto {
   width: 55%; 
-  background-color: #ffffff;
+
   border: 1px solid #ccc;
   padding: 20px;
 }
@@ -72,19 +74,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #00000075;
+    border-bottom: 1px solid #00000075;
+    background-color: #336b877c;
 }
 
 .g1-imagen img{
     max-width: 400px;
+
 
 }
 
 .g1-texto{
     display: flex;
     flex-direction: column;
-    border: 1px solid #00000077;
+    border-bottom: 1px solid #00000077;
     justify-content: center;
+    background-color: #336b87c2;
+    color: #ffffff;
 }
 .tx-titulo{
     display: flex;
@@ -100,16 +106,17 @@ body{
 .g2{
     display: flex;
     justify-content: space-between;
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.56); 
 }
 
 .g2-imagen,
 .g2-texto {
   width: 55%; 
-  background-color: #ffffff;
-  border: 1px solid #ccc;
+  background-color: #2a313284;
+
   padding: 20px;
-  
+  color: #ffffff;
+   
 }
 
 .g2-imagen{
@@ -117,17 +124,18 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #0000007c;
+    border-bottom: 1px solid #0000007c;
 }
 
 .g2-texto{
     display: flex;
     flex-direction: column;
-    border: 1px solid #0000007e;
+    border-bottom: 1px solid #0000007e;
     justify-content: center;
 }
 .g2-imagen img{
     max-width: 300px;
+    
 }
 
 /*-----------------------------------------------*/
@@ -161,3 +169,47 @@ body{
     max-width: 50px; 
     border-radius: 50%;
 }
+
+/*----------------------------------*/
+
+.box h1{
+    display: flex;
+    justify-content: center;
+    color: #826e57;
+    
+    
+}
+
+.tarjeta-propia{
+    display: flex;
+    justify-content: center;
+}
+
+.favoritos{
+    width: 240px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 0 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.56); 
+}
+
+
+/*----------------------------------*/
+.piedepagina{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3b36367e;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+.redessociales img{
+    padding: 5px;
+    width: 20px;
+}
+
+/*-----------*/
+
+
