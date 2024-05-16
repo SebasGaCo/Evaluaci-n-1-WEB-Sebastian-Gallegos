@@ -183,6 +183,7 @@ body{
 .tarjeta-propia{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .favoritos{
@@ -213,3 +214,32 @@ body{
 /*-----------*/
 
 
+@media screen and (max-width: 768px) {
+
+    .g1{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .g2, .tarjetas-flotantes, .tarjeta-propia{
+        flex-direction: column;
+        
+    }
+
+    .g1-imagen, .g1-texto, .g2-imagen, .g2-texto{
+    width: auto; 
+    }
+
+    .t1{
+        margin: 30px;
+        padding-inline: 15%;
+    }
+
+    .favoritos{
+        margin: 10px;
+    }
+
+    
+
+
+
+}
