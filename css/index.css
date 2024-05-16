@@ -56,28 +56,108 @@ body{
 
 .g1{
     display: flex;
-    align-items: stretch;
-    justify-content: center;
+    justify-content: space-between;
 
+}
 
+.g1-imagen,
+.g1-texto {
+  width: 55%; 
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
 }
 
 .g1-imagen{
-    border: 1px solid #000;
     display: flex;
-
-
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00000075;
 }
+
 .g1-imagen img{
-    max-width: 300px;
+    max-width: 400px;
 
 }
 
 .g1-texto{
     display: flex;
     flex-direction: column;
-    border: 1px solid #000;
+    border: 1px solid #00000077;
+    justify-content: center;
 }
 .tx-titulo{
     display: flex;
 } 
+.btn-3{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100px;
+}
+
+/*--------------------------------*/
+
+.g2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.g2-imagen,
+.g2-texto {
+  width: 55%; 
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  
+}
+
+.g2-imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0000007c;
+}
+
+.g2-texto{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0000007e;
+    justify-content: center;
+}
+.g2-imagen img{
+    max-width: 300px;
+}
+
+/*-----------------------------------------------*/
+
+.tarjetas-flotantes{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.t1 {
+    width: 300px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 0 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.56); 
+
+}
+
+.t1-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.t1-titulo img {
+    max-width: 50px; 
+    border-radius: 50%;
+}
