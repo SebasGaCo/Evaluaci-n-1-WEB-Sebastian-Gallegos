@@ -192,11 +192,18 @@ body{
 
 .favoritos{
     width: 240px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #ddff00; 
     border-radius: 10px;
     padding: 20px; 
-    margin: 0 20px; 
+    margin: 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.56); 
+}
+
+.favdata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
